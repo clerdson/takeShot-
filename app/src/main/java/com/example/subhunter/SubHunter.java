@@ -126,8 +126,8 @@ public class SubHunter extends Activity {
         verticalTouched=(int)touchY/blockSize;
 
         hit= horizontalTouched==subHorizontalPosition&&verticalTouched ==subVerticalPosition;
-
-        hit=1==1&&1==1;
+         //boom(); for fsrt quadrant
+        //hit=1==1&&1==1;
         int horizontalGap = (int)horizontalTouched-subHorizontalPosition;
         int verticalGap = (int)verticalTouched-subVerticalPosition;
 
